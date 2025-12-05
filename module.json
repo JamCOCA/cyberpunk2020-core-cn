@@ -1,0 +1,40 @@
+{
+    "id": "cyberpunk2020-core-cn",
+    "title": "Translation: 中文 [cyberpunk2020]",
+    "description": "本模组为 FVTT 的 cyberpunk2020 系统提供了中文翻译。",
+    "authors": [
+        {
+            "name": "Jamcoca",
+            "email": "junchuanmy@outlook.com"
+        }
+    ],
+    "compatibility": {
+        "minimum": "12",
+        "verified": "13"
+    },
+    "languages": [
+        {
+            "lang": "cn",
+            "name": "中文",
+            "path": "cn.json"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "cyberpunk2020",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/SuperCoon666/cyberpunk2020/main/system.json",
+                "compatibility": {
+                    "minimum": "1.0.3",
+                    "verified": "1.0.3"
+                }
+            }
+        ]
+    },
+    "changelog": "https://github.com/JamCOCA/cyberpunk2020-core-cn/releases/tag/1.0.3",
+    "version": "1.0.3",
+    "url": "https://github.com/JamCOCA/cyberpunk2020-core-cn",
+    "manifest": "https://github.com/JamCOCA/cyberpunk2020-core-cn/releases/latest/download/module.json",
+    "download": "https://github.com/JamCOCA/cyberpunk2020-core-cn/releases/download/1.0.3/cyberpunk2020-core-cn.zip"
+}
